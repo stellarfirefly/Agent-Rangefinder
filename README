@@ -1,0 +1,29 @@
+#README for Agent Rangefinder 1
+
+Web-based utility for EVE Online to find agents within a given
+range from a specific system.
+
+
+DEPENDENCIES:
+------------
+
+- OfficialDatabase.info.php:  Important constants for connecting
+to the EVE DataDump database.
+
+- CCPSystems.lib.php:  Internal library.
+- CCPAgents.lib.php:  Internal library.
+
+
+MINOR DEPENDENCIES:
+------------------
+
+- ../../*.css:  Miscellaneous stylesheets to beautify output.
+None critical to functionality.
+
+- ../../errorsToBrowser.php:  Redirects errors to the browser
+output.
+
+- ../../SupportTag.php:  Footer tag with support contact info.
+
+- ../../Counter.php:  Basic page counter.
+
